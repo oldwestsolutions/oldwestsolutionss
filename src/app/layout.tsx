@@ -1,5 +1,6 @@
-import React from 'react';
-import { FluentProvider, webLightTheme } from '@fluentui/react-components';
+'use client';
+
+import { FluentProvider } from '@fluentui/react-components';
 import { theme } from '@/styles/theme';
 import './globals.css';
 
