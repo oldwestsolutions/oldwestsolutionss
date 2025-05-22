@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --smoke-gray: #2F2F2F;
+  --smoke-gray-light: #3F3F3F;
+  --smoke-gray-lighter: #4F4F4F;
+  --microsoft-blue: #0078D4;
+}
+
+body {
+  background-color: var(--smoke-gray);
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+} 
