@@ -1,7 +1,8 @@
 import { Providers } from './providers';
 import './globals.css';
+import type { Metadata } from 'next';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'VMware Rental Service',
   description: 'Rent high-performance virtual machines instantly',
 };

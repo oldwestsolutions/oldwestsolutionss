@@ -21,9 +21,11 @@ const brandColors = {
 
 export const theme = createLightTheme(brandColors);
 
-export const useStyles = makeStyles({
+const useStyles = makeStyles({
   root: {
-    backgroundColor: brandColors[10],
-    color: brandColors[140],
+    backgroundColor: tokens.colorNeutralBackground1,
+    color: tokens.colorNeutralForeground1,
   },
-}); 
+});
+
+export { useStyles }; 
