@@ -1,7 +1,4 @@
-'use client';
-
-import { FluentProvider } from '@fluentui/react-components';
-import { theme } from '@/styles/theme';
+import { Providers } from './providers';
 import './globals.css';
 
 export const metadata = {
@@ -17,9 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <FluentProvider theme={theme}>
-          {children}
-        </FluentProvider>
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
