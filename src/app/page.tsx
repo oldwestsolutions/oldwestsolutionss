@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { makeStyles, tokens, Title3, Button, Card, CardHeader, CardPreview } from '@fluentui/react-components';
 import { Cloud24Regular } from '@fluentui/react-icons';

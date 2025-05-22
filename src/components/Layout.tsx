@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { makeStyles, tokens } from '@fluentui/react-components';
 import { NavLink } from './NavLink';
